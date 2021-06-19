@@ -1,0 +1,83 @@
+@charset "ISO-8859-1";
+html,
+body {
+	height: 100%;
+	   background-size: 100% 100%
+}
+.button {
+        background-color:#49a09d;
+        border: none;
+        color: white;
+        padding: 20px 34px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 10px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+body {
+	 font-family: 'Lato', sans-serif;
+	margin: 0;
+background-image: url("https://images.pexels.com/photos/2041627/pexels-photo-2041627.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500.png");
+	font-family: sans-serif;
+	font-weight: 80;
+	color:#fff;
+}
+
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+table {
+	width: 400px;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.9);
+}
+
+th,
+td {
+	padding: 15px;
+   background:rgba(48, 45, 45, 0.8);
+}
+
+th {
+	text-align: left;
+}
+
+thead,th {
+	
+		background-color: #55608f;
+	
+}
+
+	

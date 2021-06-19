@@ -1,0 +1,54 @@
+@charset "ISO-8859-1";
+body {
+	 font-family: 'Lato', sans-serif;
+	font-size:15px;
+    color: #fff;
+    overflow-x: hidden;
+    height: 100%;
+    background-image: url("https://images.pexels.com/photos/1024248/pexels-photo-1024248.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500.png");
+      background-repeat: no-repeat center center fixed;
+    background-size: 100% 100%;
+}
+
+
+.card {
+	
+     height:550px;
+     width:500px;
+    padding:100px 100px 100px 250px;
+    margin-top: 100px;
+     margin-right: 20px;
+      margin-left: 350px;
+    margin-bottom: 100px;
+    border: none !important;
+    background:rgba(48, 45, 45, 0.8);
+   /*  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.3) */
+}
+
+
+.form-control-label {
+    margin-bottom: 0
+}
+
+input,
+textarea,
+button {
+    padding: 8px 60px;
+    border-radius: 5px !important;
+    margin: 5px 0px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 18px !important;
+    font-weight: 300
+}
+
+input:focus,
+textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 3px solid #669900;
+    outline-width: 0;
+    font-weight: 400
+}
+

@@ -1,0 +1,72 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.my{
+	height:300px;
+	width:500px;
+	padding: 100px 300px 100px 400px;
+	
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.btn:hover {background-color:#E2B842 }
+
+.btn:active {
+	background-color:#000; 
+ 
+  transform: translateY(4px);
+}
+body {
+background-image: url("https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500.png");
+  font-family: 'Open Sans', sans-serif;
+}
+table {
+	padding: 100px 500px 100px 100px;
+
+  background: #012B39;
+  border-radius: 0.25em;
+
+  border-collapse: collapse;
+  margin: 1em;
+}
+th {
+  border-bottom: 1px solid #364043;
+  color: #E2B842;
+  font-size: 0.85em;
+  font-weight: 600;
+  padding: 0.5em 1em;
+  text-align: left;
+}
+td {
+  color: #fff;
+  font-weight: 400;
+  padding: 0.65em 1em;
+}
+.disabled td {
+  color: #4F5F64;
+}
+tbody tr {
+  transition: background 0.25s ease;
+}
+tbody tr:hover {
+  background: #014055;
+}
+
